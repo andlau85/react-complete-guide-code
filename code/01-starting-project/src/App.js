@@ -1,13 +1,10 @@
 import React from 'react';
-import AddUserButton from './Components/UI/AddUserButton/AddUserButton';
-import UsernameInput from './Components/UsernameInput/UsernameInput';
-import UserAgeInput from './Components/UserAgeInput/UserAgeInput';
+import AddUser from './components/Users/AddUser';
 
 function App() {
   return (
     <div>
-      <UsernameInput />
-      <UserAgeInput />
+      <AddUser />
     </div>
   );
 }
